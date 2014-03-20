@@ -26,7 +26,7 @@
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "^0.8.0",
+    "grunt-contrib-jshint": "~0.8.x",
     "grunt-contrib-watch": "~0.5.3",
     "karma-script-launcher": "~0.1.0",
     "karma-chrome-launcher": "~0.1.1",
@@ -41,23 +41,23 @@
     "grunt": "~0.4.2",
     "grunt-karma": "~0.6.2",
     "grunt-mocha-cov": "0.2.x",
-    "chai": "^1.9.0",
+    "chai": "~1.9.x",
     "supertest": "~0.9.0",
     "sinon": "~1.9.0",
     "config": "~0.4.35",
-    "yadda": "^0.10.1",
+    "yadda": "~0.10.x",
     "nodemon": "~1.0.14",
     "grunt-nodemon": "~0.2.0",
     "casual": "~1.4.3",
     "proxyquire": "~0.5.2",
     "coveralls": "~2.8.0",
     "grunt-docco": "~0.3.3",
-    "browserify": "^3.32.0",
+    "browserify": "~3.x",
     "karma-commonjs": "0.0.6",
     "karma-browserifast": "~0.3.0"
   },
   "dependencies": {
-    "mongoose": "^3.8.8",
+    "mongoose": "~3.8.x",
     "lodash": "~2.4.1",
     "express": "~3.4.8"
   }
